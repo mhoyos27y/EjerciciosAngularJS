@@ -10,7 +10,28 @@
 <body>
 	
 <div class="container">
-	<h1>{{"Hola Mundo desde AngularJS"}}</h1>
+	<h1>{{"Hola Mundo desde AngularJS de imac"}}</h1>
+
+	<h1>Filtros</h1>
+	<h2>en AngularJS</h2>
+	<p>Filtro de Texto{{"Mauricio Hoyos"}}
+	<br/>
+	Filtro de Texto 2--> {{"Mauricio Hoyos Padilla" | uppercase}}
+	<br/>
+	Filtro de Texto 2--> {{"Mauricio Hoyos Padilla" | lowercase}}
+	</p>
+
+	<p>Filtro de moneda: {{1350}}<br/>
+	Filtro de moneda: {{1350 | currency}}</p>
+
+	<p>Filtro de moneda: {{1350}}<br/>
+	Filtro de moneda: {{1350 | currency:'Col. '}}<br/>
+	Filtro de moneda: {{1350 | currency:''}}</p>
+
+	<p>
+	FILTRO DE NUMERO: {{1500000}} <br/>
+	FILTRO DE NUMERO: {{1500000 | number}}
+	</p>
 </div>
 
 </body>
