@@ -17,7 +17,7 @@
 
         <div class="container" ng-controller="profesorCtrl  as profe">   
            <h1>Profesor</h1>
-            <h4>{{profe.profesor.nombre}}</h4>
+            <h4>{{profesor.nombre}}</h4>
             <hr>
 
             <div class="row">
@@ -26,7 +26,7 @@
                 <div class="col-sm-3">
                     <section class="panel">
                         <div class="panel-body" align="center">
-                            <img ng-src="{{profe.profesor.foto}}" class="img-circle" alt="" width="150px" height="150px">
+                            <img ng-src="{{profesor.foto}}" class="img-circle" alt="" width="150px" height="150px">
                         </div>
                     </section>
                 </div>
@@ -35,14 +35,41 @@
                 <div class="col-sm-9">
                     <section class="panel">
                         <div class="panel-body">
-                            {{profe.profesor.bio}}
+                            {{profesor.bio}}
                             <br>
                             <br>
-                            <strong>Edad:</strong> {{profe.profesor.edad}}  años
+                            <strong>Edad:</strong> {{profesor.edad}}  años
+                            <br>
+                            <button class="btn btn-primary" ng-click="editarProfesor()">Editar</button>
                         </div>
                     </section>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <section class="panel">
+                        <div class="panel-body">
+                            Nombre:
+                            <br>
+                            <input type="text" class="form-control" ng-model="editando.nombre">
+                            <br>
+                             Edad:
+                            <br>
+                            <input type="text" class="form-control" ng-model="editando.edad">
+                            <br>
+                             Biografía:
+                            <br>
+                            <textarea class="form-control" rows="10" ng-model="editando.bio"></textarea>
+
+                            <br>
+                            <button class="btn btn-primary" ng-click="guardarCambios()">Guardar</button>
+                            <button class="btn btn-danger" ng-click="cancelarCambios()">Cancelar</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
         </div>
 
     </body>

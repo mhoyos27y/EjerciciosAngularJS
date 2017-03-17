@@ -1,9 +1,23 @@
 var app= angular.module('universidadApp', []);
 
 
-app.controller('profesorCtrl', function () {
+app.controller('profesorCtrl', function ($scope) {
 	
-	this.profesor=profesorData;
+	$scope.profesor=profesorData;
+	$scope.editando={};
+
+	$scope.editarProfesor=function(){
+
+		angular.copy($scope.profesor, $scope.editando);
+	}
+
+	$scope.guardarCambios= function(){
+		angular.copy($scope.editando, $scope.profesor);
+	}
+
+	$scope.cancelarCambios= function(){
+		$scope.editando={};
+	}
 
 });
 
