@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gestionUniversidadApp" ng-controller="gestionCtrl">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/lib/angular.min.js"></script>
+	<script src="js/lib/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/commons.js"></script>
+	<script src="js/controllers/profesorCtrl.js"></script>
+	<script src="js/controllers/estudiantesCtrl.js"></script>
+
+	<title>Gestión Universidad</title>
+</head>
+<body>
+		
+	<div ng-include="menuHeader"></div>
+
+	<div class="container">
+		<div ng-view></div>
+	</div>
+
+</body>
+</html>

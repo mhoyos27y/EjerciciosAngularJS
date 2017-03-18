@@ -1,0 +1,21 @@
+<h1>Estos son nuestro profesores</h1>
+<div>
+	<table class="table table-striped">
+		<tr>
+			<th>ID</th>
+			<th>Primer Nombre</th>
+			<th>Segundo Nombre</th>
+			<th>Sexo</th>
+			<th>Telefono</th>
+			<th>Celular</th>
+		</tr>
+		<tr ng-repeat="profe in lstProfesores">
+			<td>{{profe.id}}</td>
+			<td>{{profe.nombre}}</td>
+			<td>{{profe.snombre}}</td>
+			<td>{{profe.sexo}}</td>
+			<td>{{profe.telefono}}</td>
+			<td>{{profe.celular}}</td>
+		</tr>
+	</table>
+</div>

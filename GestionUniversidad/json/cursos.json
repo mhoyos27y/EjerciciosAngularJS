@@ -1,0 +1,144 @@
+{
+  "listaCursos": [
+      {
+        "id": 1,
+        "nombre": "Ingeniería de Sistemas",
+        "facultad": "Ingeniería",
+        "duracion": "10 Semestres",
+        "titulo": "Ingeniero de Sistemas",
+        "perfil": "Adquirirás una formación social y humanística para aplicar tus conocimientos científico-técnicos con sentido ético y humano; así entenderás el medio empresarial y liderarás proyectos informáticos en las organizaciones y tendrás el completo dominio de las herramientas computacionales y la sensibilidad social que necesitas para convertirte en protagonista del desarrollo del país.",
+        "categoría":"sistemas",
+        "planEstudio":[
+          {
+            "idMateria":1,
+            "nombre":"Algoritmo 1",
+            "creditos": 6,
+            "semestre":"I"
+          },
+          {
+            "idMateria":2,
+            "nombre":"Teoria General de Sistemas",
+            "creditos": 2,
+            "semestre":"I"
+          },
+          {
+            "idMateria":3,
+            "nombre":"Calculo 1",
+            "creditos": 5,
+            "semestre":"I"
+          },
+          {
+            "idMateria":4,
+            "nombre":"Bases de Datos",
+            "creditos": 5,
+            "semestre":"I"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Ingeniería Telecomunicaciones",
+        "facultad": "Ingeniería",
+        "duracion": "10 Semestres",
+        "titulo": "Ingeniero de Telecomunicaciones",
+        "perfil": "Habilidad para el razonamiento lógico y matemático. Capacidades para el análisis, la síntesis y la deducción. Disposición para el trabajo en equipo. Preparación adecuada en matemáticas, física y dibujo.",
+        "categoría":"Telecomunicaciones",
+        "planEstudio":[
+          {
+            "idMateria":1,
+            "nombre":"Algoritmo 2",
+            "creditos": 6,
+            "semestre":"I"
+          },
+          {
+            "idMateria":2,
+            "nombre":"Teoria General de Telecomunicaciones",
+            "creditos": 2,
+            "semestre":"I"
+          },
+          {
+            "idMateria":3,
+            "nombre":"Calculo 2",
+            "creditos": 5,
+            "semestre":"I"
+          },
+          {
+            "idMateria":4,
+            "nombre":"Bases de Telematica",
+            "creditos": 5,
+            "semestre":"I"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Ingeniería Mecatrónica",
+        "facultad": "Ingeniería",
+        "duracion": "10 Semestres",
+        "titulo": "Ingeniero Mecatrónico",
+        "perfil": "El Ingeniero en Mecatrónica cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional y nacional.",
+        "categoría":"Mecatrónica",
+        "planEstudio":[
+          {
+            "idMateria":1,
+            "nombre":"Inteligencia Artificial 2",
+            "creditos": 6,
+            "semestre":"I"
+          },
+          {
+            "idMateria":2,
+            "nombre":"Teoria General de Mecatrónica",
+            "creditos": 2,
+            "semestre":"I"
+          },
+          {
+            "idMateria":3,
+            "nombre":"Calculo 5",
+            "creditos": 5,
+            "semestre":"I"
+          },
+          {
+            "idMateria":4,
+            "nombre":"Bases de Mecatrónica",
+            "creditos": 5,
+            "semestre":"I"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Ingeniería Física",
+        "facultad": "Ingeniería",
+        "duracion": "10 Semestres",
+        "titulo": "Ingeniero Físico",
+        "perfil": "Áreas de investigación y desarrollo de productos y servicios que involucren nuevas tecnologías, trabajos interdisciplinarios entre las ingenierías y las ciencias, Creación de empresas de base tecnológica.",
+        "categoría":"Física",
+        "planEstudio":[
+          {
+            "idMateria":1,
+            "nombre":"Geometría",
+            "creditos": 6,
+            "semestre":"I"
+          },
+          {
+            "idMateria":2,
+            "nombre":"Ecuaciones Diferenciales",
+            "creditos": 2,
+            "semestre":"I"
+          },
+          {
+            "idMateria":3,
+            "nombre":"Estadistica General",
+            "creditos": 5,
+            "semestre":"I"
+          },
+          {
+            "idMateria":4,
+            "nombre":"Calculo 3",
+            "creditos": 5,
+            "semestre":"I"
+          }
+        ]
+      }
+    ]
+  }
